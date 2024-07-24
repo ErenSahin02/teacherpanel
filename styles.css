@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 14px;
+    color: #800000;
+}
+
+.account-info {
+    display: flex;
+    align-items: center;
+}
+
+.account-info span {
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.account-info .role {
+    color: #800000;
+    font-weight: bold;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.logout {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+aside .menu-item {
+    display: block;
+    width: 100%;
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menu-item i {
+    margin-right: 10px;
+}
+
+aside .menu-item.chat {
+    background-color: #3b83f7;
+    border: 1px solid white ;
+    border-radius: 10px;
+    width: 100px;
+    
+    position: relative;
+    left: 80px;
+    
+}
+aside .menu-item.creator {
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #e0376d;
+}
+
+aside .menu-item.active {
+   
+    background-color: #800000;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu .menu-item {
+    background-color: #f8f8f8;
+    color: #000;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.menu .menu-item:hover,
+.menu .menu-item.active {
+    background-color: #800000;
+    color: #fff;
+}
+
+.language {
+    margin-top: 20px;
+}
+
+.language select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    flex: 1;
+}
+
+.dashboard-item {
+   
+    background-color: #800000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    width: 30%;
+    height: 20%;
+    
+    
+}
+
+.dashboard-item h2 {
+    margin-bottom: 1%;
+    font-size: 15px;
+    padding: 0;
+
+}
+
+.dashboard-item p {
+    font-size: 3rem;
+    margin: 0;
+}
+
+
+.menu-item-creator { 
+    border: 1px solid black;
+
+}
+.b2 {
+    position: relative;
+    bottom: 150px;
+}
+
+
+
+
+    
+
+
+   
